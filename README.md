@@ -15,15 +15,15 @@ Funcs than you can call when you create a Gonfiguration object:
 You only need to create a variable and call the "New" method, it will return a pointer with the initialized fifo/lifo object. Now you can use all the functions of the object. An example of use:
 
 ```Go
-	fifoExample := New() 			      // Create new Object
-	fifoExample.Add("Simple") 		  // Add element to the queue
-	fifoExample.Add("Fifo") 		    // Add element to the queue
-	fifoExample.Add("Example") 		  // Add element to the queue
-	fmt.Print(fifoExample.Pop()) 	  // Simple
-	fmt.Print(fifoExample.Pop()) 	  // Fifo
-	fmt.Println(fifoExample.Pop()) 	// Example
+	fifoExample := New() // Create new Object
+	fifoExample.Add("Simple") // Add element to the queue
+	fifoExample.Add("Fifo") // Add element to the queue
+	fifoExample.Add("Example") // Add element to the queue
+	fmt.Print(fifoExample.Pop()) // Simple
+	fmt.Print(fifoExample.Pop()) // Fifo
+	fmt.Println(fifoExample.Pop()) // Example
 
-	fmt.Print(fifoExample.Pop()) 	  // <Nil> because there aren`t more elements in the queue
+	fmt.Print(fifoExample.Pop()) // <Nil> because there aren`t more elements in the queue
 ```
 
 ### Note
