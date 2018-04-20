@@ -2,7 +2,7 @@
 Work with simple queues like FIFO(First In First Out) and LIFO(Last In First Out).
 
 ## Funcs
-Funcs than you can call when you create a Gonfiguration object:
+Funcs than you can call when you create a fifo/lifo object:
 
 ```Go
 - func New() *Fifo
