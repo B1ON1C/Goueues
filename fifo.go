@@ -27,6 +27,6 @@ func(f *Fifo) Pop() (i interface{}) {
 }
 
 // Len returns int about the actual size of the *Fifo list
-func(f *Lifo) Len() int{
-	return len(f.LifoList)
+func(f *Fifo) Len() int{
+	return len(f.FifoList)
 }
